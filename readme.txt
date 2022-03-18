@@ -26,3 +26,18 @@ CLONE REMOTE REPO LOCALLY
 1) go to directory where the new repo will be created
 2) clone remote repo
 	git clone git@github.com:mhalfhuid/bodysense.git
+
+
+
+
+PUSH CONTENT FROM LOCAL TO REMOTE
+
+
+1) go to local repo
+2) add new file to tracked files:
+	git add <new file>
+3) commit new file
+	git commit -m "new file added"
+4) push content of local repo to main:
+	git push origin main
+
